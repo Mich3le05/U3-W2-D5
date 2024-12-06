@@ -1,0 +1,21 @@
+.bg-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/assets/images/meteo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 90vh;
+}
+
+@media (max-width: 576px) {
+  /* sm breakpoint */
+  .img-sm {
+    width: 300px; /* imposta la dimensione desiderata */
+  }
+}
+@media (min-width: 1100px) {
+  /* sm breakpoint */
+  .img-sm {
+    width: 500px; /* imposta la dimensione desiderata */
+  }
+}
